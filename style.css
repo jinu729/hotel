@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Pacifico&display=swap');
+/* 
+font-family: 'Dosis', sans-serif;
+font-family: 'Pacifico', cursive;
+ */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #333;
+}
+.wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap aside{
+    width: 15%;
+    position: relative;
+}
+.wrap aside ul{
+    width: 95%;
+    margin: 90px auto;
+}
+.wrap aside li a:hover{
+    color:lightblue;
+}
+.wrap aside li:nth-child(1){
+    width: 100%;
+    height: 135px;
+    background: url(./img/logo1.png) top/cover no-repeat;
+    background-size: 70%;
+}
+.wrap aside li:nth-child(2){
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.wrap aside li:nth-child(3){
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.wrap aside li:nth-child(4){
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.wrap aside li:nth-child(5){
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.wrap aside div{
+    width: 95%;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.wrap section{
+    width: 85%;
+}
+.wrap section ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.wrap section li:nth-child(1){
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-family: 'Pacifico', cursive;
+    font-size: 14px;
+}
+.wrap section li:nth-child(1) spna :nth-child(3){
+    margin-left: 75%;
+    margin-right: 1%;
+}
+.wrap section li:nth-child(2){
+    width: 50%;
+    height: 450px;
+    background: url(./img/pic1.jpg) top/cover no-repeat;
+    position: relative;
+}
+.wrap section li:nth-child(2) p{
+    position: absolute;
+    right: 4px;
+    bottom: 0;
+    color: white;
+    font-size: 80px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+.wrap section li:nth-child(2):hover p{
+    color: black;
+}
+.wrap section li:nth-child(3){
+    width: 50%;
+    height: 450px;
+}
+.wrap section li:nth-child(3) div:nth-child(1){
+    width: 100%;
+    height: 50%;
+    transition: all 1s;
+}
+.wrap section div:nth-child(1) p:nth-child(1){
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+}
+.wrap section div:nth-child(1) p:nth-child(2){
+    padding-left: 10px;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+}
+.wrap section div:nth-child(1):hover{
+    background-color: lightblue;
+    color: white;
+}
+
+.wrap section li:nth-child(3) div:nth-child(2){
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap section div:nth-child(2) p:nth-child(1){
+    width: 50%;
+    height: 100%;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    color: #656565;
+    transition: all 1s;
+}
+.wrap section div:nth-child(2) p:nth-child(1):hover{
+    background-color: rgb(101, 156, 174);
+    color: white;
+}
+
+.wrap section div:nth-child(2) p:nth-child(2){
+    width: 50%;
+    height: 100%;
+    background: url(./img/pic2.jpg) top/cover no-repeat;
+    position: relative;
+}
+.wrap section div:nth-child(2) p:nth-child(2) span{
+    position: absolute;
+    bottom: 60px;
+    right: 80px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    transform: scale(5);
+    transition: all 0.7s;
+    opacity: 0;
+}
+.wrap section div:nth-child(2) p:nth-child(2):hover span{
+    opacity: 1;
+    transform: scale(2);
+    right: 40px;
+    bottom: 20px;
+}
+
+.wrap section li:nth-child(4){
+    width: 15%;
+    height: 200px;
+    background: url(./img/pic3.jpg) top/cover no-repeat;
+    position: relative;
+}
+.wrap section li:nth-child(4) p{
+    position: absolute;
+    bottom: 60px;
+    right: 80px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    transform: scale(5);
+    transition: all 0.7s;
+    opacity: 0;
+}
+.wrap section li:nth-child(4):hover p{
+    opacity: 1;
+    transform: scale(2);
+    right: 40px;
+    bottom: 20px;
+}
+
+.wrap section li:nth-child(5){
+    width: 35%;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: all 1s;
+}
+.wrap section li:nth-child(5) p:nth-child(1){
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+}
+.wrap section li:nth-child(5) p:nth-child(2){
+    padding-left: 10px;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+}
+.wrap section li:nth-child(5):hover{
+    background-color: rgb(101, 156, 174);
+    color: white;
+}
+
+.wrap section li:nth-child(6){
+    width: 25%;
+    height: 200px;
+    background: url(./img/pic4.jpg) top/cover no-repeat;
+    position: relative;
+}
+.wrap section li:nth-child(6) p{
+    position: absolute;
+    bottom: 60px;
+    right: 80px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    transform: scale(5);
+    transition: all 0.7s;
+    opacity: 0;
+}
+.wrap section li:nth-child(6):hover p{
+    opacity: 1;
+    transform: scale(2);
+    right: 40px;
+    bottom: 20px;
+}
+
+.wrap section li:nth-child(7){
+    width: 25%;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: all 1s;
+}
+.wrap section li:nth-child(7) p:nth-child(1){
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+}
+.wrap section li:nth-child(7) p:nth-child(2){
+    padding-left: 10px;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+}
+.wrap section li:nth-child(7):hover{
+    background-color: rgb(101, 156, 174);
+    color: white;
+}
+.wrap section li:nth-child(8){
+    width: 35%;
+    height: 200px;
+    background: url(./img/pic5.jpg) top/cover no-repeat;
+    position: relative;
+}
+.wrap section li:nth-child(8) p{
+    position: absolute;
+    bottom: 60px;
+    right: 80px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    transform: scale(5);
+    transition: all 0.7s;
+    opacity: 0;
+}
+.wrap section li:nth-child(8):hover p{
+    opacity: 1;
+    transform: scale(2);
+    right: 40px;
+    bottom: 20px;
+}
+
+.wrap section li:nth-child(9){
+    width: 15%;
+    height: 200px;
+    background: url(./img/pic6.jpg) top/cover no-repeat;
+    position: relative;
+}
+.wrap section li:nth-child(9) p{
+    position: absolute;
+    bottom: 60px;
+    right: 80px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    transform: scale(5);
+    transition: all 0.7s;
+    opacity: 0;
+}
+.wrap section li:nth-child(9):hover p{
+    opacity: 1;
+    transform: scale(2);
+    right: 40px;
+    bottom: 20px;
+}
+
+
+.wrap section li:nth-child(10){
+    width: 25%;
+    height: 200px;
+    background-color: lightcoral;
+}
+
+
+.wrap section li:nth-child(11){
+    width: 25%;
+    height: 200px;
+    background: url(./img/pic7.jpg) top/cover no-repeat;
+    position: relative;
+}
+.wrap section li:nth-child(11) p{
+    position: absolute;
+    bottom: 60px;
+    right: 80px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    transform: scale(5);
+    transition: all 0.7s;
+    opacity: 0;
+}
+.wrap section li:nth-child(11):hover p{
+    opacity: 1;
+    transform: scale(2);
+    right: 40px;
+    bottom: 20px;
+}
